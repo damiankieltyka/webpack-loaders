@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack"
+    "start": "webpack-dev-server --hot --env development",
+    "build": "webpack --env production"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "react-dom": "^16.9.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.8"
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.1"
   }
 }
