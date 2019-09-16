@@ -1,0 +1,10 @@
+.TodoTitle {
+    text-align: center;
+    color: #eee;
+    letter-spacing: 3px;
+    padding: 12px;
+    background-color: #444;
+    width: 350px;
+    border-radius: 10px 10px 0 0;
+    margin: 17px 0;
+}
